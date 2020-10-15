@@ -35,3 +35,10 @@ eval "$(starship init zsh)"
 
 # opam configuration
 test -r /home/nixon/.opam/opam-init/init.zsh && . /home/nixon/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+# FZF respect .gitignore, etc
+export FZF_DEFAULT_COMMAND='fd --type f'
+
+
+alias idot='dot -Efontsize=18 -Gdpi=500 -Efontname=sans -Nfontname=sans -Tpng -Gbgcolor=black -Gcolor=white -Ecolor=white -Efontcolor=white -Ncolor=white -Nfontcolor=white | convert -trim -bordercolor black -border 20 -transparent black -resize 60% - - | kitty icat --scale-up'
+
