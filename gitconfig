@@ -6,3 +6,5 @@
 	helper = store
 [init]
 	defaultBranch = trunk
+[merge]
+	conflictstyle = diff3
