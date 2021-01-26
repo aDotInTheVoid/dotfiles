@@ -4,3 +4,7 @@ profile = "complete"
 version = "12"
 
 [overrides]
+"/home/nixon/git/dbgx" = "nightly-x86_64-unknown-linux-gnu"
+"/home/nixon/git/xmark/src" = "stable-x86_64-unknown-linux-gnu"
+"/tmp/aoc2020" = "nightly-x86_64-unknown-linux-gnu"
+"/tmp/rust" = "nightly-x86_64-unknown-linux-gnu"
